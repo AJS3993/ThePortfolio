@@ -7,27 +7,20 @@
 // Change your profile data here
 let profile = {
   picture: "",
-  name: "Guim González",
+  name: "Andrew Smith",
   description: "Software Engineer & Fullstack Developer",
   bio:
     "I'm a Software Engineer interested in Internet technologies, computer networks and security. From the FullStack development to the most innovative technologies such as Blockchain.<br><br>High level of web languages (JS, HTML and CSS), average level of C and C++. Great understanding of Internet protocols, P2P networks and cloud infrastructures. I work with JS frameworks, JQuery (old days) and React.js (now).",
-  email: "guim.gonzalez@gmail.com",
-  location: "Barcelona, Spain",
-  birth: "1997-07-26", // YYYY-MM-DD format
+  email: "AJS3993@gmail.com",
+  location: "Austin, TX",
   skills: [
-    "Blockchain",
-    "Bitcoin",
-    "C/C++",
     "CSS",
-    "Ethereum",
     "HTML",
     "Javascript",
     "MongoDB",
     "NodeJS",
     "React",
-    "Solidity",
     "SQL",
-    "Web3"
   ],
   social: {
     linkedin: "https://www.linkedin.com/in/guim-gonzalez-846606134/",

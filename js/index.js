@@ -10,7 +10,6 @@ function setup() {
 }
 
 function fillTemplate() {
-  let birth = new Date(profile.birth);
   // Profile image
   if (profile.picture != "") {
     $("#profileImg").attr("src", profile.picture);
@@ -30,10 +29,6 @@ function fillTemplate() {
         .join(" ")
     );
   document.getElementById("location").innerHTML = profile.location;
-  document.getElementById(
-    "age"
-  ).innerHTML = `${birth.getFullYear()} / ${birth.getMonth() +
-    1} / ${birth.getDate()}`;
   $("#email")
     .find(".email")
     .text(profile.email);
