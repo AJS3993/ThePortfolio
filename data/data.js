@@ -9,8 +9,7 @@ let profile = {
   picture: "",
   name: "Andrew Smith",
   description: "Software Engineer & Fullstack Developer",
-  bio:
-    "I'm a Software Engineer interested in Internet technologies, computer networks and security. From the FullStack development to the most innovative technologies such as Blockchain.<br><br>High level of web languages (JS, HTML and CSS), average level of C and C++. Great understanding of Internet protocols, P2P networks and cloud infrastructures. I work with JS frameworks, JQuery (old days) and React.js (now).",
+  bio:'',
   email: "AJS3993@gmail.com",
   location: "Austin, TX",
   skills: [
@@ -23,11 +22,8 @@ let profile = {
     "SQL",
   ],
   social: {
-    linkedin: "https://www.linkedin.com/in/guim-gonzalez-846606134/",
-    twitter: "https://twitter.com/GuimGonzalez",
-    github: "https://github.com/GuimG/",
-    stackoverflow: "https://stackoverflow.com/users/8700961/guim-gonzalez",
-    dev: "https://dev.to/guimg"
+    linkedin: "https://www.linkedin.com/in/ajs3993/",
+    github: "https://github.com/AJS3993"
   },
   experience: [
     {
