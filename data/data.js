@@ -49,11 +49,11 @@ let profile = {
   ],
   education: [
     {
-      school: "Universitat Autònoma de Barcelona",
-      degree: "Engineering",
+      school: "General Assembly",
+      degree: "Software Engineering",
       fieldOfStudy: "Computer Science",
-      location: "Barcelona, Spain",
-      from: "September 2016",
+      location: "Austin, TX",
+      from: "October 2019",
       to: "Now"
     }
   ],
