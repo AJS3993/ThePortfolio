@@ -27,24 +27,24 @@ let profile = {
   },
   experience: [
     {
-      title: "FullStack Developer",
-      company: "Freelance",
-      url: "https://guimgonzalez.business/",
-      location: "Barcelona, Spain",
+      title: "title",
+      company: "company",
+      url: "url",
+      location: "Austin, TX",
       description:
-        "I do websistes for small businesses. I develop both frontend and backend. I also setup and mantain the VPS.",
-      from: "September 2017",
-      to: "Now"
+        "description",
+      from: "Start date",
+      to: "End date"
     },
     {
-      title: "IT Consultant",
-      company: "Innova-TSN",
-      url: "https://www.innova-tsn.com/",
-      location: "Barcelona, Spain",
+      title: "title",
+      company: "company",
+      url: "url",
+      location: "Austin, TX",
       description:
-        "I developed web services, worked with SAS (ETL's), and email marketing with Oracle Eloqua.",
-      from: "July 2018",
-      to: "February 2019"
+        "description",
+      from: "Start date",
+      to: "End date"
     }
   ],
   education: [
