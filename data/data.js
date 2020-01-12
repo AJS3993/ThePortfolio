@@ -20,6 +20,10 @@ let profile = {
     "NodeJS",
     "React",
     "SQL",
+    "Python",
+    "Django",
+    "Node",
+    "Express"
   ],
   social: {
     linkedin: "https://www.linkedin.com/in/ajs3993/",
@@ -54,10 +58,10 @@ let profile = {
       fieldOfStudy: "Computer Science",
       location: "Austin, TX",
       from: "10/12/19",
-      to: "Now"
+      to: "1/24/20"
     }
   ],
-  quote: "I turn coffee into code"
+  quote: "I turn tacos into code"
 };
 
 let page = {
