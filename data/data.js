@@ -27,24 +27,24 @@ let profile = {
   },
   experience: [
     {
-      title: "title",
-      company: "company",
+      title: "Preceptor",
+      company: "Scott and White",
       url: "url",
-      location: "Austin, TX",
+      location: "Temple, TX",
       description:
-        "description",
-      from: "Start date",
-      to: "End date"
+        "Performed genetic testing in a fast-paced laboratory",
+      from: "4/15/16",
+      to: "7/15/16"
     },
     {
-      title: "title",
-      company: "company",
+      title: "PT Tech",
+      company: "Texas Orthopedic Therapy",
       url: "url",
-      location: "Austin, TX",
+      location: "El Paso, TX",
       description:
-        "description",
-      from: "Start date",
-      to: "End date"
+        "Kept track of patient records and guided patients through exercises",
+      from: "8/15/16",
+      to: "8/15/19"
     }
   ],
   education: [
@@ -53,7 +53,7 @@ let profile = {
       degree: "Software Engineering",
       fieldOfStudy: "Computer Science",
       location: "Austin, TX",
-      from: "October 2019",
+      from: "10/12/19",
       to: "Now"
     }
   ],
