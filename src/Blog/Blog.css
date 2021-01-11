@@ -1,0 +1,65 @@
+#blog {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+        background: url('https://images.unsplash.com/photo-1457365050282-c53d772ef8b2')no-repeat center center;
+        background-size: cover;
+  background-attachment: fixed;
+      }
+
+      .navbar.scrolling-navbar.top-nav-collapse  {
+        color: rgb(255, 255, 255);
+        background-color: rgba(0, 0, 0, 1);
+      }
+
+
+
+
+.blogT{
+  font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+    color:yellow;  
+}
+
+#readMore:hover{
+    font-size: 22px;
+    color:yellow;  
+}
+
+
+
+#date{
+  color:rgba(255, 255, 255, 0.342); 
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+}
+
+#bh {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+}
+
+
+#bh:hover{
+  color: rgb(255, 255, 0);
+  text-shadow:0px 1px 12px rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+#postLink{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+  }
+
+  #postLink:hover{
+    color: rgb(255, 255, 0);
+    text-shadow:0px 1px 12px rgb(255, 255, 255);
+    cursor: pointer;
+  }
+
+  #postLinkA{
+    color: rgb(255, 255, 0);
+    text-shadow:0px 1px 12px rgb(255, 255, 255);
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+ 
