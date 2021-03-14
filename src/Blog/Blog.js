@@ -84,7 +84,7 @@ class Blog extends React.Component {
    <MDBLink to='/myfirstpost'><p id='postLink' className='text-center'>• My First Post</p></MDBLink> 
    <MDBLink to='/lablife'><p id='postLink' className='text-center'>• Lab Life</p></MDBLink> 
    <MDBLink to='/generalassembly'><p id='postLink' className='text-center'>• General Assembly</p></MDBLink> 
-   <MDBLink to='/afterbootcamp'><p id='postLink' className='text-center'>• After Bootcamp</p></MDBLink> 
+   <MDBLink to='/afterbootcamp'><p id='postLink' className='text-center'>• After Bootcamp...</p></MDBLink> 
     
            </MDBCol>
           
