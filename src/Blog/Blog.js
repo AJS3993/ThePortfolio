@@ -145,7 +145,7 @@ class Blog extends React.Component {
             <h5 className='white-text'>Lab Life</h5>
             <hr className="hr-light"/>
             <MDBCardText className='white-text'>
-              Once upon a time a wanted to spend my whole life in the lab.
+              Once upon a time a wanted to spend my whole life in t
             </MDBCardText>
             <MDBLink to='/lablife' className='white-text d-flex justify-content-end'>
               <h5 id='readMore'>
