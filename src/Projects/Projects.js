@@ -47,11 +47,11 @@ class Projects extends React.Component {
              </MDBNavbarNav>
            <MDBNavbarNav right>
          
-           <MDBNavItem>
+           {/* <MDBNavItem>
            <MDBNavLink className='m-3 pt-1' id='NB' to="/blog">
           Blog
         </MDBNavLink>
-                </MDBNavItem> 
+                </MDBNavItem>  */}
 
            <MDBNavItem>
                 <MDBNavLink id='NBA' className='m-3 pt-1' to="" disabled>
