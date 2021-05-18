@@ -110,7 +110,7 @@ class GeneralAssembly extends React.Component {
 In October of 2019 I decided to enroll in General Assembly Software Engineering.
  I came in knowing almost nothing about software engineering.
   Fortunately, the atmosphere was extremely friendly and everyone (teachers/students/alumni) was almost always willing to drop what they were doing to help.
-<br/><br/>          
+<br/><br/>          bvhgj
   I LOVED programming immediately. For some reason it just comes easily to me. I even became the one that some of my classmates would come to for help.
   I honestly wish it had lasted longeeer .
   <br/><br/>  
