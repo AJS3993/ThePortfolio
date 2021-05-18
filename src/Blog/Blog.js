@@ -113,7 +113,7 @@ class Blog extends React.Component {
             <h5>My First Post</h5>
             <hr className='hr-light' />
             <MDBCardText className='white-text'>
-           My first blog post! Its been a while that I wanted to start a blog. Here goes...
+           My first blog post! Its been a while that I wanted to start a blog. blogie Here goes...
             </MDBCardText>
             <MDBLink to='/myfirstpost' className='white-text d-flex justify-content-end'>
               <h5 id='readMore'>

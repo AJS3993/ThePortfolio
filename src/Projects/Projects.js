@@ -55,7 +55,7 @@ class Projects extends React.Component {
 
            <MDBNavItem>
                 <MDBNavLink id='NBA' className='m-3 pt-1' to="" disabled>
-         Portfolio
+          Portfolio
         </MDBNavLink>
                 </MDBNavItem>
 
