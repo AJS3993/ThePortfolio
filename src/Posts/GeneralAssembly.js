@@ -114,7 +114,7 @@ In October of 2019 I decided to enroll in General Assembly Software Engineering.
   I LOVED programming immediately. For some reason it just comes easily to me. I even became the one that some of my classmates would come to for help.
   I honestly wish it had lasted longeeer .
   <br/><br/>  
-  A great beginning to a new career!
+  A great beginning to00o a new career!
 
 </p>
           </MDBCardBody>
