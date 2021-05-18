@@ -3,16 +3,19 @@ import ReactDOM from "react-dom";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "bootstrap-css-only/css/bootstrap.min.css";
 import "mdbreact/dist/css/mdb.css";
-import './index.css';
 import * as serviceWorker from "./serviceWorker";
-import App from "./App";
+import Landing from "./Landing/Landing";
+import Projects from "./Projects/Projects";
 
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router,Route, Switch } from "react-router-dom";
 
 
 ReactDOM.render(
     <Router basename={process.env.PUBLIC_URL}>
-      <App />
+      <Switch>
+      <Route exact path="/" component={Landing} />
+      <Route exact path="/portfolio" component={Projects} />
+      </Switch>
     </Router>,
     document.getElementById('root')
   );

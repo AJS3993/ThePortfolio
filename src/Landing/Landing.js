@@ -52,7 +52,7 @@ class Landing extends React.Component {
                 </MDBNavItem> */}
 
                 <MDBNavItem>
-                <MDBNavLink className='m-3' id='NB' to="/projects">
+                <MDBNavLink className='m-3' id='NB' to="/portfolio">
          Portfolio 
         </MDBNavLink>
                 </MDBNavItem>
