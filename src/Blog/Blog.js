@@ -61,7 +61,7 @@ class Blog extends React.Component {
 
                 <MDBNavItem>
            <MDBLink className='m-3 pt-1' id='NB' to="/">
-     Home
+     Homie
    </MDBLink>
            </MDBNavItem>
            
