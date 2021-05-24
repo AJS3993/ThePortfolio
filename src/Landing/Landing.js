@@ -13,7 +13,8 @@ import {
   MDBNavLink
 } from 'mdbreact';
 import './Landing.css';
-import Particles from 'react-particles-js';
+
+
 
 class Landing extends React.Component {
   constructor(props) {
