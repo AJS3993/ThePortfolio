@@ -34,7 +34,7 @@ class Landing extends React.Component {
   render() {
     return (
       <div id='landing'>
-        <MDBNavbar dark expand='md' fixed='top' className='z-depth-0' transparent>
+        <MDBNavbar dark expand='md' fixed='top' className='z-depth-0 m-0 p-0' transparent>
        
             <MDBNavbarToggler onClick={this.toggleCollapse('navbarCollapse')} />
             <MDBCollapse
@@ -82,7 +82,7 @@ class Landing extends React.Component {
               className=''
               overlay='gradient'
             >
-              <MDBContainer className='h-100 p-0 m-0'>
+              <MDBContainer className='h-100 p-0  m-0'>
                 <MDBRow className='flex-center'>
                  
                  <MDBCol md='3' className='rgba-black-strong h-100 p-2'>
@@ -94,7 +94,7 @@ class Landing extends React.Component {
                     <strong>About Me</strong>
                   </h5>
 
-                  <hr color='yellow'/>
+                  <hr className='yellowLine'/>
                  <p className='white-text p-2 about'>
                 I am a software engineer with a background in science and healthcare. I have built many projects both front and back end. I currently have the most experience in javascript, react and python but I also have some experience with many other technologies and I am always learning more. 
                 </p>
@@ -105,7 +105,7 @@ class Landing extends React.Component {
                     <strong>Social Media</strong>
                   </h5>
 
-                  <hr color='yellow'/>
+                  <hr className='yellowLine'/>
                   <a href='https://www.linkedin.com/in/andrewjsmith3993/'>
                   <MDBBtn size="sm" tag="a" floating social="li">
         <MDBIcon fab icon="linkedin-in" />

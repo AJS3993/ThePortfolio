@@ -33,7 +33,7 @@ class Blog extends React.Component {
     return (
       <div id='blog'>
 
-<MDBNavbar dark expand='md' fixed='top' className='z-depth-0' scrolling>
+<MDBNavbar dark expand='md' fixed='top' className='z-depth-0 m-0 p-0' scrolling>
        
        <MDBNavbarToggler onClick={this.toggleCollapse('navbarCollapse')} />
        <MDBCollapse
@@ -43,7 +43,7 @@ class Blog extends React.Component {
        >
        
      <MDBNavbarNav left>
-     <h3 id='glowie' className='blogT'>Console.Blog </h3>
+     <h3 id='glowie' className='blogT ml-3'>Console.Blog </h3>
              </MDBNavbarNav>
            <MDBNavbarNav right>
          
@@ -84,12 +84,12 @@ class Blog extends React.Component {
    <MDBLink to='/myfirstpost'><p id='postLink' className='text-center'>• My First Post</p></MDBLink> 
    {/* <MDBLink to='/lablife'><p id='postLink' className='text-center'>• Lab Life</p></MDBLink>  */}
    <MDBLink to='/GeneralAssembly'><p id='postLink' className='text-center'>• General Assembly</p></MDBLink> 
-   <MDBLink to='/AfterBootcamp'><p id='postLink' className='text-center'>• After Bootcamp...</p></MDBLink> 
+   <MDBLink to='/AfterBootcamp'><p id='postLink' className='text-center'>• After Bootcamp</p></MDBLink> 
     
            </MDBCol>
           
             <MDBCol md='9' >
-              <div id='blogWrapper' className='p-4 m-n3 rgba-black-strong rounded'>
+              <div id='blogWrapper' className='p-4 m-n3 rounded'>
          <MDBRow>
       <MDBCol md='4' className='p-2 '>
       
@@ -108,7 +108,7 @@ class Blog extends React.Component {
           </MDBLink>
           <MDBCardBody className='pt-0'>
      
-              <p id='date' className='text-right my-0'>7/14/2020</p>
+              {/* <p id='date' className='text-right my-0'>7/14/2020</p> */}
            
             <h5>My First Post</h5>
             <hr className='hr-light' />
@@ -174,7 +174,7 @@ class Blog extends React.Component {
             alt='MDBCard image cap'
           /></MDBLink>
           <MDBCardBody className='pt-0'>
-          <p id='date' className='text-right my-0'>8/2/2020</p>
+          {/* <p id='date' className='text-right my-0'>8/2/2020</p> */}
            
             <h5>General Assembly</h5>
             <hr className='hr-light' />
@@ -206,7 +206,7 @@ class Blog extends React.Component {
             alt='MDBCard image cap'
           /></MDBLink>
           <MDBCardBody className='pt-0'>
-          <p id='date' className='text-right my-0'>10/2/2020</p>
+          {/* <p id='date' className='text-right my-0'>10/2/2020</p> */}
            
             <h5>After Bootcamp</h5>
             <hr className='hr-light' />

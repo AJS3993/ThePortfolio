@@ -16,6 +16,7 @@ import {
   MDBNavbar
 } from 'mdbreact';
 import './Projects.css';
+import LightboxPage from '../Lightbox';
 
 class Projects extends React.Component {
   constructor(props) {
@@ -33,7 +34,7 @@ class Projects extends React.Component {
     return (
       <div id='projects'>
 
-<MDBNavbar expand='md' fixed='top' className='z-depth-0' scrolling>
+<MDBNavbar expand='md' fixed='top' className='z-depth-0 m-0 p-0' scrolling>
        
        <MDBNavbarToggler onClick={this.toggleCollapse('navbarCollapse')} />
        <MDBCollapse
@@ -43,7 +44,7 @@ class Projects extends React.Component {
        >
        
      <MDBNavbarNav left>
-     <h3 className='white-text'>Andrew <span id='glowie' className='yellow-text font-weight-bold'> ⅉ </span> Smith </h3>         </MDBNavbarNav>
+     <h3 className='white-text ml-3'>Andrew <span id='glowie' className='yellow-text font-weight-bold'> ⅉ </span> Smith </h3>         </MDBNavbarNav>
            <MDBNavbarNav right>
          
            <MDBNavItem>
@@ -302,10 +303,10 @@ class Projects extends React.Component {
 
             </MDBCol>
           </MDBRow>
-          
+          <LightboxPage/>
           </MDBContainer>
        
-        
+    
  </section>
           
       </div>

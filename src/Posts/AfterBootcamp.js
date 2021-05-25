@@ -80,7 +80,7 @@ class AfterBootcamp extends React.Component {
               <MDBLink to='/blog' className=''><p id='bh' className='text-center py-2 mb-0' to="/blog">Blog Home</p></MDBLink> 
   
        <MDBLink to='/myfirstpost'><p id='postLink' className='text-center'>• My First Post</p></MDBLink>
-       <MDBLink to='/lablife'><p id='postLink' className='text-center'>• Lab Life</p></MDBLink>
+       {/* <MDBLink to='/lablife'><p id='postLink' className='text-center'>• Lab Life</p></MDBLink> */}
        <MDBLink to='/generalassembly'><p id='postLink' className='text-center'>• General Assembly</p></MDBLink> 
   
        <MDBLink to='/afterbootcamp' className='disabled'><p id='postLinkA' className='text-center'>• After Bootcamp</p></MDBLink> 

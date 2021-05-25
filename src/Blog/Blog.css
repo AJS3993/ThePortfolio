@@ -1,7 +1,7 @@
 #blog {
-        background: url('https://images.unsplash.com/photo-1457365050282-c53d772ef8b2');
-        background-size: cover;
-  background-attachment: fixed;
+  background: url('https://images.unsplash.com/photo-1457365050282-c53d772ef8b2')no-repeat center center;
+  background-size: cover;
+  height: 100vh;
       }
 
       .navbar.scrolling-navbar.top-nav-collapse  {
@@ -10,9 +10,6 @@
       }
 
 
-#blogWrapper{
-  border: 1px solid rgba(255, 255, 0, 0.082)
-}
 
 .blogT{
   font-family:'Courier New', Courier, monospace;
@@ -27,11 +24,7 @@
 
 
 
-#date{
-  color:rgba(255, 255, 255, 0.342); 
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
-    font-size: 15px;
-}
+
 
 #bh {
   color: rgb(255, 255, 255);
