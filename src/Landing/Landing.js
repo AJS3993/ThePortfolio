@@ -10,7 +10,9 @@ import {
   MDBCol,
   MDBMask,
   MDBView,
-  MDBNavLink
+  MDBNavLink,
+  MDBBtn,
+  MDBIcon
 } from 'mdbreact';
 import './Landing.css';
 
@@ -46,11 +48,11 @@ class Landing extends React.Component {
                   </MDBNavbarNav>
                 <MDBNavbarNav right>
 
-                {/* <MDBNavItem>
+                <MDBNavItem>
                 <MDBNavLink className='m-3' id='NB' to="/blog">
           Blog
         </MDBNavLink>
-                </MDBNavItem> */}
+                </MDBNavItem>
 
                 <MDBNavItem>
                 <MDBNavLink className='m-3' id='NB' to="/portfolio">
@@ -77,21 +79,62 @@ class Landing extends React.Component {
 
 
             <MDBMask
-              className='d-flex justify-content-center align-items-center'
+              className=''
               overlay='gradient'
             >
-              <MDBContainer className='h-100 justify-content-center align-items-center'>
-                <MDBRow className='flex-center pt-5 mt-3'>
-                  <MDBCol md='6' className='text-center text-md-right mb-5'>
+              <MDBContainer className='h-100 p-0 m-0'>
+                <MDBRow className='flex-center'>
+                 
+                 <MDBCol md='3' className='rgba-black-strong h-100 p-2'>
+                 <MDBContainer className='rounded flex-center h-25 p-0'>
+<img src='https://i.imgur.com/Zik1Fr3.jpg' className='myPic z-depth-3' />
+                 </MDBContainer>
+                 <MDBContainer>
+                 <h5 className='yellow-text pt-1'>
+                    <strong>About Me</strong>
+                  </h5>
+
+                  <hr color='yellow'/>
+                 <p className='white-text p-2 about'>
+                I am a software engineer with a background in science and healthcare. I have built many projects both front and back end. I currently have the most experience in javascript, react and python but I also have some experience with many other technologies and I am always learning more. 
+                </p>
+                 </MDBContainer>
+                 <br/>
+                 <MDBContainer>
+                 <h5 className='yellow-text'>
+                    <strong>Social Media</strong>
+                  </h5>
+
+                  <hr color='yellow'/>
+                  <a href='https://www.linkedin.com/in/andrewjsmith3993/'>
+                  <MDBBtn size="sm" tag="a" floating social="li">
+        <MDBIcon fab icon="linkedin-in" />
+      </MDBBtn>
+      </a>
+      <a href='https://www.youtube.com/channel/UCHQVTanFovgdGd4GcQ9aBVQ'>
+      <MDBBtn size="sm" tag="a" floating social="yt">
+        <MDBIcon fab icon="youtube" />
+      </MDBBtn>
+      </a>
+      <a href='https://github.com/AJS3993'>
+      <MDBBtn size="sm" tag="a" floating social="git">
+        <MDBIcon fab icon="github" />
+      </MDBBtn>
+      </a>
+    
+                 </MDBContainer>
+                 </MDBCol>
+                  <MDBCol md='8' className='text-center text-md-right mb-5'>
                     <div  className='white-text'>
-                    <h2>Andrew <span className='yellow-text font-weight-bold'>J</span> Smith </h2>
-                   
-                      <h6 id='glowie' className='yellow-text'> Web Development </h6>
+                    <h1>Andrew <span id='glowie' className='yellow-text font-weight-bold'> ⅉ </span> Smith </h1>
+                    
+                      <h5 id='glowie' className='yellow-text'> Web Development </h5>
                       <br />
                       
                     </div>
                   </MDBCol>
-
+  
+                  <MDBCol md='1' className='p-0'><span className='zz'></span></MDBCol>
                   
                 </MDBRow>
                 

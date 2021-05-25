@@ -51,7 +51,7 @@ class LabLife extends React.Component {
                 </MDBNavItem> 
 
            <MDBNavItem>
-           <MDBLink className='m-3 pt-1' id='NB' to="/projects">
+           <MDBLink className='m-3 pt-1' id='NB' to="/portfolio">
          Portfolio
         </MDBLink>
                 </MDBNavItem>

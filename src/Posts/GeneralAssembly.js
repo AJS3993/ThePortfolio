@@ -53,7 +53,7 @@ class GeneralAssembly extends React.Component {
                 </MDBNavItem> 
 
            <MDBNavItem>
-           <MDBLink className='m-3 pt-1' id='NB' to="/projects">
+           <MDBLink className='m-3 pt-1' id='NB' to="/portfolio">
          Portfolio
         </MDBLink>
                 </MDBNavItem>
@@ -80,7 +80,7 @@ class GeneralAssembly extends React.Component {
               <MDBLink to='/blog' className=''><p id='bh' className='text-center py-2 mb-0' to="/blog">Blog Home</p></MDBLink> 
   
        <MDBLink to='/myfirstpost'><p id='postLink' className='text-center'>• My First Post</p></MDBLink>
-       <MDBLink to='/lablife'><p id='postLink' className='text-center'>• Lab Life</p></MDBLink>
+       {/* <MDBLink to='/lablife'><p id='postLink' className='text-center'>• Lab Life</p></MDBLink> */}
        <MDBLink to='/generalassembly' className='disabled'><p id='postLinkA' className='text-center'>• General Assembly</p></MDBLink> 
        <MDBLink to='/afterbootcamp'><p id='postLink' className='text-center'>• After Bootcamp</p></MDBLink> 
       

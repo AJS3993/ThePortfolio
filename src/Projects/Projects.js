@@ -43,24 +43,23 @@ class Projects extends React.Component {
        >
        
      <MDBNavbarNav left>
-     <h3 className='white-text'>Andrew <span id='glowie' className='font-weight-bold yellow-text'>J</span> Smith </h3>
-             </MDBNavbarNav>
+     <h3 className='white-text'>Andrew <span id='glowie' className='yellow-text font-weight-bold'> ⅉ </span> Smith </h3>         </MDBNavbarNav>
            <MDBNavbarNav right>
          
-           {/* <MDBNavItem>
-           <MDBNavLink className='m-3 pt-1' id='NB' to="/blog">
+           <MDBNavItem>
+           <MDBNavLink className='m-3' id='NB' to="/blog">
           Blog
         </MDBNavLink>
-                </MDBNavItem>  */}
+                </MDBNavItem> 
 
            <MDBNavItem>
-                <MDBNavLink id='NBA' className='m-3 pt-1' to="" disabled>
+                <MDBNavLink id='NBA' className='m-3' to="" disabled>
           Portfolio
         </MDBNavLink>
                 </MDBNavItem>
 
                 <MDBNavItem>
-           <MDBNavLink className='m-3 pt-1' id='NB' to="/">
+           <MDBNavLink className='m-3' id='NB' to="/">
      Home
    </MDBNavLink>
            </MDBNavItem>

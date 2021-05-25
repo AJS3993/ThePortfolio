@@ -48,20 +48,20 @@ class Blog extends React.Component {
            <MDBNavbarNav right>
          
            <MDBNavItem>
-           <MDBLink id='NBA' className='m-3 pt-1' to="" disabled>
+           <MDBLink id='NBA' className='m-3' to="" disabled>
           Blog
         </MDBLink>
                 </MDBNavItem> 
 
            <MDBNavItem>
-           <MDBLink className='m-3 pt-1' id='NB' to="/projects">
+           <MDBLink className='m-3' id='NB' to="/portfolio">
          Portfolio
         </MDBLink>
                 </MDBNavItem>
 
                 <MDBNavItem>
-           <MDBLink className='m-3 pt-1' id='NB' to="/">
-     Homie
+           <MDBLink className='m-3' id='NB' to="/">
+     Home
    </MDBLink>
            </MDBNavItem>
            
@@ -71,7 +71,7 @@ class Blog extends React.Component {
   
    </MDBNavbar>
 
-   <section className='mdb-color darken-3'>
+   <section className='rgba-black-light'>
        
        
         <div className='pt-5'>
@@ -82,18 +82,18 @@ class Blog extends React.Component {
           <MDBLink to='/blog' className=''><p id='bh' className='text-center py-2 mb-0' to="/blog">Blog Home</p></MDBLink> 
   
    <MDBLink to='/myfirstpost'><p id='postLink' className='text-center'>• My First Post</p></MDBLink> 
-   <MDBLink to='/lablife'><p id='postLink' className='text-center'>• Lab Life</p></MDBLink> 
-   <MDBLink to='/generalassembly'><p id='postLink' className='text-center'>• General Assembly</p></MDBLink> 
-   <MDBLink to='/afterbootcamp'><p id='postLink' className='text-center'>• After Bootcamp...</p></MDBLink> 
+   {/* <MDBLink to='/lablife'><p id='postLink' className='text-center'>• Lab Life</p></MDBLink>  */}
+   <MDBLink to='/GeneralAssembly'><p id='postLink' className='text-center'>• General Assembly</p></MDBLink> 
+   <MDBLink to='/AfterBootcamp'><p id='postLink' className='text-center'>• After Bootcamp...</p></MDBLink> 
     
            </MDBCol>
           
             <MDBCol md='9' >
-              <div id='blogWrapper' className='p-4 m-n3 rgba-black-light'>
+              <div id='blogWrapper' className='p-4 m-n3 rgba-black-strong rounded'>
          <MDBRow>
       <MDBCol md='4' className='p-2 '>
       
-      <MDBCard className='rgba-white-slight white-text'>
+      <MDBCard className='rgba-white-slight white-text hoverGlow'>
           
       <MDBLink to='/myfirstpost'>
               
@@ -126,9 +126,9 @@ class Blog extends React.Component {
   
       </MDBCol>
 
-      <MDBCol md='4' className='p-2 '>
+      {/* <MDBCol md='4' className='p-2 '>
       
-      <MDBCard className='rgba-white-slight'>
+      <MDBCard className='rgba-white-slight hoverGlow'>
       <MDBLink to='/lablife'>
           <MDBCardImage
             top
@@ -156,12 +156,14 @@ class Blog extends React.Component {
           </MDBCardBody>
         </MDBCard>
 
-      </MDBCol>
+      </MDBCol> */}
+
+      
 
    
       <MDBCol md='4' className='p-2'>
       
-      <MDBCard className='rgba-white-slight white-text'>
+      <MDBCard className='rgba-white-slight white-text hoverGlow'>
           <MDBLink to='/generalassembly'>
           <MDBCardImage
             top
@@ -192,12 +194,47 @@ class Blog extends React.Component {
     
       
      
+<MDBCol md='4' className='p-2'>
+<MDBCard className='rgba-white-slight white-text hoverGlow'>
+          <MDBLink to='/AfterBootcamp'>
+          <MDBCardImage
+            top
+            src='https://i.kym-cdn.com/entries/icons/original/000/033/544/man.jpg'
+            overlay='white-slight'
+            hover
+            waves
+            alt='MDBCard image cap'
+          /></MDBLink>
+          <MDBCardBody className='pt-0'>
+          <p id='date' className='text-right my-0'>10/2/2020</p>
+           
+            <h5>After Bootcamp</h5>
+            <hr className='hr-light' />
+            <MDBCardText className='white-text'>
+       Pandemic?! what do you mean pandemic?
+            </MDBCardText>
+            <MDBLink to='/AfterBootcamp' className='white-text d-flex justify-content-end'>
+              <h5 id='readMore'>
+                Read more
+                <MDBIcon icon='angle-double-right' className='ml-2' />
+              </h5>
+            </MDBLink>
+          </MDBCardBody>
+        </MDBCard>
+     </MDBCol>
 
 
         <MDBCol md='1' className='p-2'>
       
       </MDBCol>
     </MDBRow>
+
+<MDBRow>
+
+
+</MDBRow>
+
+
     </div>
             </MDBCol>
           </MDBRow>

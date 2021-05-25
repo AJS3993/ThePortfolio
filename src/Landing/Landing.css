@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Raleway+Dots&display=swap');
+
+
 #landing {
   background: black;
-font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 
@@ -301,12 +304,29 @@ h5 {
   text-shadow:0px 1px 8px rgb(255, 255, 255);
 }
 
+#NB{
+  font-size: larger;
+}
+
 #NB:hover {
   color: yellow;
   text-shadow:0px 1px 8px rgb(255, 255, 255);
+  font-size: larger;
 }
 
 #NBA {
   color: yellow;
   text-shadow:0px 1px 4px rgb(255, 255, 255);
+  font-size: larger;
 }
+
+.myPic{
+border-radius: 5%;
+    max-width: 100%;
+    max-height: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.322);
+  }
+
+  .about {
+    font-size: 15px;
+  }
